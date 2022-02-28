@@ -1,0 +1,12 @@
+.header {
+    background-color: #f2f2f2;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* свойство необходимо, чтобы квадрат не выходил за рамки родительского элемента */
+  }

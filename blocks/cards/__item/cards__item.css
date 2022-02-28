@@ -1,0 +1,13 @@
+.cards__item {
+    width: 100%;
+    max-width: 240px; /*Ширина задана исходя из сложений величин из брифа.*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 100px;
+  }
+
+  .cards__item:nth-of-type(3n) { /* сделал отступ для каждого третьего элемента */
+    margin-right: 0;
+  }
